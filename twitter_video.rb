@@ -4,7 +4,6 @@ require 'json'
 require 'colorize'
 
 class TwitterVideoUploader
-
   def initialize(video_path, username, password, consumer_key, secret_key, status_message)
     @video_path = video_path
     @username = username
