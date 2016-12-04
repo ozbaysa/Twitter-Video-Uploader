@@ -5,12 +5,12 @@ How to use this ruby file
 
 1- Put this(twitter_video.rb) to somewhere in your project that you can reach easily.
 
-2- In your code blocks call the file  
+2- In your code blocks call the file by this  
 ```ruby
 require_relative 'twitter_account.rb'
 ```
 
-3- Initialize the file
+3- Initialize the class in the file by typing this in your code file
 ```ruby
 TwitterVideoUploader.new(video_path, account_username, account_password, consumer_key, secret_key, status_message).upload
 ```
@@ -21,8 +21,9 @@ twitter_video = TwitterVideoUploader.new(video_path, account_username, account_p
 
 twitter_video.upload
 ```
+4- Open the terminal and run your file
 
-4- And the most important one is Enjoy :kissing_heart:
+5- Final and the most important one is Enjoy :kissing_heart:
 
 
 
