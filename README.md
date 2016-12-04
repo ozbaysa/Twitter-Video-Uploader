@@ -16,4 +16,4 @@ twitter_video.upload```
 
 
 
-###### Made with :kissing_heart: in Istanbul
+###### Made with :heart: in Istanbul
