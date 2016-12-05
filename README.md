@@ -7,7 +7,7 @@ How to use this ruby file
 
 2- In your code blocks call the file by this  
 ```ruby
-require_relative 'twitter_account.rb'
+require_relative 'your/path/to/twitter_account.rb'
 ```
 
 3- Initialize the class in the file by typing this in your code file
