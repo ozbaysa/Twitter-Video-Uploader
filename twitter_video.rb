@@ -16,12 +16,7 @@ class TwitterVideoUploader
   def upload
     stdin, stdout = Open3.popen3("twurl authorize -u #{@username} -p #{@password} --consumer-key #{@consumer_key} --consumer-secret #{@secret_key}")
     line = stdout.gets
-    x = 6
-    url = ' '
-    while line[x] != ' '
-      url += line[x]
-      x += 1
-    end
+    url = line.to_s.split(' ')[2]
     puts 'Opening the browser for validation'.green
     b = Watir::Browser.new :chrome
     b.goto url

@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    colorize (0.8.1)
+    ffi (1.9.14)
+    json (2.0.2)
+    oauth (0.5.1)
+    rubyzip (1.2.0)
+    selenium-webdriver (3.0.3)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    twurl (0.9.3)
+      oauth (~> 0.4)
+    watir-webdriver (0.9.9)
+      selenium-webdriver (>= 2.46.2)
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  json
+  twurl
+  watir-webdriver
+
+BUNDLED WITH
+   1.13.6

@@ -5,7 +5,9 @@ How to use this ruby file
 
 1- Put this(twitter_video.rb) to somewhere in your project that you can reach easily.
 
-2- In your code blocks call the file by this  
+2- Run `Bundle install`
+
+3- In your code blocks call the file by this  
 ```ruby
 require_relative 'your/path/to/twitter_account.rb'
 ```
